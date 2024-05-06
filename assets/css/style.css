@@ -972,7 +972,7 @@ img {
 
 .main-menu .navigation > li.current > a,
 .main-menu .navigation > li:hover > a{
-  
+  color: red;
 }
 
 .main-menu .navigation > li.dropdown > a:before{
