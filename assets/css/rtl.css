@@ -151,31 +151,15 @@
   text-align: right;
 }
 
-.rtl .about-style-two .theme-btn i{
-  margin-left: 0px;
-  margin-right: 10px;
-}
+
 
 .rtl .service-block-two .inner-box .link a i{
   margin-left: 0px;
   margin-right: 10px;
 }
 
-.rtl .gallery-style-two .sec-title .btn-box{
-  right: inherit;
-  left: 0px;
-}
 
-.rtl .gallery-style-two .sec-title{
-  text-align: right;
-}
-
-.rtl .gallery-style-two .sec-title .btn-box .theme-btn i{
-  margin-left: 0px;
-  margin-right: 10px;
-}
-
-.rtl .faq-section .skills-inner{
+.rtl .faq-section .products-inner{
   margin-left: 25px;
   margin-right: 100px;
   text-align: right;
@@ -203,36 +187,12 @@
   left: 40px;
 }
 
-.rtl .news-block-two .inner-box{
-  text-align: right;
-}
-
-.rtl .news-block-two .inner-box .post-date{
-  right: inherit;
-  left: 35px;
-}
-
 .rtl .four-item-carousel{
   direction: ltr;
 }
 
-.rtl .footer-top .top-info li{
-  margin-right: 0px;
-  margin-left: 175px;
-  text-align: right;
-  padding-left: 0px;
-  padding-right: 60px;
-}
 
-.rtl .footer-top .top-info li:before{
-  right: inherit;
-  left: -90px;
-}
 
-.rtl .footer-top .top-info li i{
-  left: inherit;
-  right: 0px;
-}
 
 .rtl .main-footer .widget-section{
   text-align: right;
@@ -283,13 +243,5 @@
   left: 30px;
 }
 
-.rtl .news-block-two .inner-box .post-info li{
-  float: right;
-  margin-right: 0px;
-  margin-left: 65px;
-}
 
-.rtl .news-block-two .inner-box .post-info li:before{
-  right: inherit;
-  left: -36px;
-}
+
