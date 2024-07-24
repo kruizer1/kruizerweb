@@ -26,11 +26,11 @@
 
 .main-menu .navigation > li > ul > li > a:hover,
 .main-menu .navigation > li > .megamenu li > a:hover{
-	color: #00005A; 
+	color: #fff; 
 }
 
 .main-menu .navigation > li > ul > li > ul > li > a:hover{
-  color: #00005A;
+  color: #fff;
 }
 
 .banner-section .owl-theme .owl-dots .owl-dot.active span:before,
