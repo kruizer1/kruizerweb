@@ -51,7 +51,7 @@
 ====================================================================
 
  ***/
-* {
+ * {
   margin:0px;
   padding:0px;
   border:none;
@@ -892,7 +892,7 @@ img {
   position:absolute;
   right:100%;
   top:0%;
-  width:300px;
+  width:400px;
   z-index:100;
   display:none;
   padding: 10px 0px;
@@ -977,12 +977,12 @@ img {
 .main-menu .navigation > li > ul > li > ul >li>a{
   font-weight: 600;
   font-size: 15px;
-  color: rgb(75, 70, 70);
+  color: rgb(135, 9, 17);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 
 }
 .main-menu .navigation > li > ul > li > ul > li> a:hover{
-  color: #040faa !important;
+  color: #4CAF50 !important;
 }
 
 .main-menu .navigation > li > ul > li > ul > li.dropdown > a:after{
@@ -1076,9 +1076,30 @@ img {
   transform: rotateX(0); 
 }
 
-/** inner-style **/
+/** inner-dropdwon-style **/
 
-
+.main-menu .navigation > li> ul > li > ul > li > ul{
+  position:absolute;
+  right:100%;
+  top:0%;
+  width:400px;
+  z-index:100;
+  padding: 10px 0px;
+  filter: alpha(opacity=0);
+  background: #fff;
+  border-radius: 0px 0px 10px 10px;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -webkit-box-shadow: 0px 4px 4px 1px rgba(0,0,0,0.2);
+  box-shadow: 0px 4px 4px 1px rgba(0,0,0,0.2);
+  -webkit-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  visibility: hidden;
+}
 
 .main-menu .navigation > li > ul > li > ul> li > ul.from-right{
   left:auto;
@@ -1093,8 +1114,7 @@ img {
 
 .main-menu .navigation > li > ul > li > ul > li > ul > li{
   position:relative;
-  width:100%;
-  padding: 0px 30px;
+  padding: 5px 30px;
   -webkit-transition: all 0.2s cubic-bezier(0.4,0.28,0.31,1.28) 0s;
   transition: all 0.2s cubic-bezier(0.4,0.28,0.31,1.28) 0s;
   opacity: 0;
@@ -1104,8 +1124,11 @@ img {
 }
 
 .main-menu .navigation > li > ul >  li > ul > li:hover > ul > li{
+  position: relative;
   opacity: 1;
   visibility: visible;
+  width: 100%;
+  display: block;
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
@@ -1146,12 +1169,12 @@ img {
 .main-menu .navigation >li > ul > li > ul > li > ul >li>a{
   font-weight: 600;
   font-size: 15px;
-  color: rgb(75, 70, 70);
+  color: #00005a;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 
 }
 .main-menu .navigation > li > ul > li > ul > li > ul > li> a:hover{
-  color: #040faa !important;
+  color: #ff0000 !important;
 }
 
 
@@ -1168,24 +1191,6 @@ img {
   z-index:5;  
 }
 
-.main-menu .navigation > li.dropdown:hover > ul,
-.main-menu .navigation > li.dropdown:hover > .megamenu{
-  visibility:visible;
-  opacity:1;
-  filter: alpha(opacity=100);
-  top: 100%;
-  -webkit-transform: rotateX(0);
-  transform: rotateX(0);
-}
-
-.main-menu .navigation li > ul> li > ul > li.dropdown:hover > ul{
-  visibility:visible;
-  opacity:1;
-  filter: alpha(opacity=100);
-  top: 0%;
-  -webkit-transform: rotateX(0);
-  transform: rotateX(0); 
-}
 
 .main-menu .navigation li.dropdown .dropdown-btn{
   position:absolute;
@@ -1211,6 +1216,23 @@ img {
 .main-menu .navigation li.dropdown ul li.dropdown .dropdown-btn{
   display: none;
 }
+
+
+
+
+.main-menu .navigation >li > ul > li > ul > li > ul > li.dropdown > a:after{
+  font-family: 'Font Awesome 5 Pro';
+  content: "\f105";
+  position:absolute;
+  right:20px;
+  top:12px;
+  display:block;
+  line-height:24px;
+  font-size:16px;
+  font-weight:900;
+  z-index:5;  
+}
+
 
 .menu-area .mobile-nav-toggler {
   position: relative;
@@ -1259,25 +1281,7 @@ img {
   z-index:5;  
 }
 
-.main-menu .navigation >  li > ul > li.dropdown:hover > ul,
-.main-menu .navigation >li> ul> li.dropdown:hover > .megamenu{
-  visibility:visible;
-  opacity:1;
-  filter: alpha(opacity=100);
-  top: 100%;
-  -webkit-transform: rotateX(0);
-  transform: rotateX(0);
-}
-
-.main-menu .navigation li > ul > li > ul > li.dropdown:hover > ul{
-  visibility:visible;
-  opacity:1;
-  filter: alpha(opacity=100);
-  top: 0%;
-  -webkit-transform: rotateX(0);
-  transform: rotateX(0); 
-}
-
+/* end-inner-dropdown */
 /** megamenu-style **/
 
 .main-menu .navigation > li.dropdown > .megamenu{
@@ -2712,7 +2716,7 @@ div#mCSB_1_container{
 .page-title:before{
   position: absolute;
   content: '';
-  background: #070719;
+  background: #00005A;
   width: 100%;
   height: 100%;
   left: 0px;
