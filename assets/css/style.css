@@ -2439,7 +2439,7 @@ div#mCSB_1_container{
 .service-block-two .inner-box h3{
 
   font-family: "Roboto Mono", monospace;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 30px;
   color: #ffff1a;
   font-weight: 700;
@@ -2448,10 +2448,11 @@ div#mCSB_1_container{
 
 .service-block-two .inner-box h3 a{
   display: inline-block;
-  color: #ffffff;
+  color: rgb(0, 238, 255);
 }
 .service-block p {
   color: #fff;
+  font-size: 16px;
   margin-bottom: 10px;
   overflow: hidden; /* Hide any overflow text */
   text-overflow: ellipsis; /* Add ellipsis (...) for overflow text */
@@ -2494,17 +2495,7 @@ div#mCSB_1_container{
   border-radius: 10px;
   transition: all 0.3s ease;
 }
-.service-block-two .inner-box .link a:hover {
-  background-color: #fff;
-  color: #00005A;
-}
 
-
-.service-block-two .inner-box:hover p,
-.service-block-two .inner-box:hover a,
-.service-block-two .inner-box:hover a i{
-  color: #fff;
-}
 
 .service-block-two .inner-box .link a:hover{
   text-decoration: none;
