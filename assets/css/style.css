@@ -208,7 +208,7 @@ h1,h2,h3,h4,h5,h6{
   top: 0;
   width: 100%;
   z-index: 99999;
-  background: #ffff1a;
+  background: #00005A;
 }
 
 .preloader-close{
@@ -241,7 +241,7 @@ h1,h2,h3,h4,h5,h6{
   content: "";
   position: absolute;
   border-radius: 200px;
-  box-shadow: 0 0 0 3px inset #00005A;
+  box-shadow: 0 0 0 3px inset #ececf3;
   animation: l4 2.5s infinite;
 }
 .loader:after {
@@ -641,7 +641,6 @@ img {
   padding-right:  200px;
   padding-left: 20px ;
   clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
-    background-color: #ffff1a;
 }
 
 
@@ -2966,4 +2965,12 @@ footer {
     header p {
         font-size: 1em;
     }
+}
+
+.logo-img{
+  border-radius: 4px;
+}
+
+.logo-img-loader{
+  border-radius: 8px;
 }
