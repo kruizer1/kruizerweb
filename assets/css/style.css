@@ -1718,7 +1718,7 @@ div#mCSB_1_container{
 
 .service-section{
   position: relative;
-  background-color: #ffff1a;
+  background-color: #f1c232;
 }
 
 .service-section .inner-content{
@@ -1740,7 +1740,7 @@ div#mCSB_1_container{
   color: #00005A;
 }
 .service-block-one .inner-box .inner-text:hover{
-  color: #ffff1a;
+  color: #f1c232;
 }
 .service-block-one .inner-data:hover{
   background-color: #00005A;
@@ -1914,7 +1914,7 @@ div#mCSB_1_container{
 .testimonial-section{
   position: relative;
   padding: 125px 0px 130px 0px;
-  background-color: #ffff1a;  
+  background-color: #f1c232;  
 }
 
 .testimonial-section .content_block_4 .content-box{
@@ -2024,7 +2024,7 @@ div#mCSB_1_container{
 
 .cta-section{
   position: relative;
-  background-color: #ffff1a;
+  background-color: #f1c232;
 }
 
 .cta-section .inner-container{
@@ -2105,7 +2105,7 @@ div#mCSB_1_container{
 
 .main-footer{
   position: relative;
-  background: #ffff1a;
+  background: #f1c232;
 }
 
 
@@ -2199,7 +2199,7 @@ div#mCSB_1_container{
 }
 
 .main-footer .links-widget .links-list li a:hover{
-  color: #ffff1a;
+  color: #f1c232;
 
 }
 
@@ -2364,7 +2364,7 @@ div#mCSB_1_container{
 
 .about-style-two{
   position: relative;
-  background-color: #ffff1a;
+  background-color: #f1c232;
   padding-bottom: 20px;
 }
 .about-style-two .content_block_2{
@@ -2418,7 +2418,7 @@ div#mCSB_1_container{
 .service-style-two{
   position: relative;
   padding: 50px 0px;
-  background-color: #ffff1a;
+  background-color: #f1c232;
 }
 
 
@@ -2440,7 +2440,7 @@ div#mCSB_1_container{
   font-family: "Roboto Mono", monospace;
   font-size: 19px;
   line-height: 30px;
-  color: #ffff1a;
+  color: #f1c232;
   font-weight: 700;
   margin-bottom: 24px;
 }
@@ -2485,7 +2485,7 @@ div#mCSB_1_container{
   font-size: 14px;
   line-height: 26px;
   font-family: 'Roboto', sans-serif;
-  color: #ffff1a;
+  color: #f1c232;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
@@ -2507,7 +2507,7 @@ div#mCSB_1_container{
 .faq-section{
   position: relative;
   padding: 40px 0px;
-  background: #ffff1a;
+  background: #f1c232;
 }
 
 
@@ -2736,7 +2736,7 @@ div#mCSB_1_container{
 .chooseus-section{
   position: relative;
   padding: 130px 0px 130px 0px;
-  background-color: #ffff1a;
+  background-color: #f1c232;
 }
 
 .content_block_5 .content-box{
@@ -2885,7 +2885,7 @@ header p {
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
-    background-color: #ffff1a;
+    background-color: #f1c232;
 }
 
 .job {
@@ -2911,7 +2911,7 @@ header p {
 .contact {
     text-align: center;
     padding: 20px;
-    background-color: #ffff1a;
+    background-color: #f1c232;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
